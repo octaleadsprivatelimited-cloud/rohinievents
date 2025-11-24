@@ -80,7 +80,7 @@ const Header = () => {
               {/* Logo Text */}
               <div className="flex items-center flex-shrink-0">
                 <Link href="/" className="flex items-center">
-                  <span className="text-2xl font-bold text-primary-700">Rohini Decorations & Events</span>
+                  <span className="text-2xl font-bold text-primary-700">Rohini Decorations</span>
                 </Link>
               </div>
 
@@ -211,7 +211,7 @@ const Header = () => {
                         {/* Mobile Logo Text */}
                         <div className="flex justify-center mb-6">
                           <Link href="/" className="flex items-center">
-                            <span className="text-2xl font-bold text-primary-700">Rohini Decorations & Events</span>
+                            <span className="text-2xl font-bold text-primary-700">Rohini Decorations</span>
                           </Link>
                         </div>
 
