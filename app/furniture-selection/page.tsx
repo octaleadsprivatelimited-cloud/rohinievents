@@ -216,7 +216,7 @@ const FurnitureSelection = () => {
             
             <div className="relative">
               <Image
-                src="/images/house decoration (1).jpeg"
+                src="https://images.unsplash.com/photo-1511578314322-379afb476865?w=1920&h=1080&fit=crop"
                 alt="Furniture selection process"
                 width={600}
                 height={700}

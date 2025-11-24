@@ -9,7 +9,7 @@ const Services = () => {
       title: 'Wedding Planning',
       description: 'Complete wedding coordination from engagement to reception with expert planning and flawless execution.',
       features: ['Venue Selection', 'Vendor Management', 'Timeline Planning', 'Day Coordination'],
-      image: '/images/Wedding-1280x720.jpg',
+      image: 'https://images.unsplash.com/photo-1519741497674-611481863552?w=800&h=600&fit=crop',
       link: '/wedding-planning'
     },
     {
@@ -25,7 +25,7 @@ const Services = () => {
       title: 'Catering Services',
       description: 'Premium catering solutions with diverse menus and professional service for all types of events.',
       features: ['Custom Menus', 'Professional Staff', 'Equipment Setup', 'Cleanup Services'],
-      image: '/images/tejas catering.jpg',
+      image: 'https://images.unsplash.com/photo-1556912172-45b7abe8b7e1?w=800&h=600&fit=crop',
       link: '/catering-services'
     },
     {

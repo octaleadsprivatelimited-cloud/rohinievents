@@ -65,7 +65,7 @@ const Hero = () => {
       title: 'Create Memorable Events',
       subtitle: 'With Professional Excellence',
       description: 'Complete event management services including catering, decoration, photography, and manpower coordination for weddings, corporate events, and celebrations.',
-      image: '/images/tejas catering.jpg',
+      image: 'https://images.unsplash.com/photo-1556912172-45b7abe8b7e1?w=1920&h=1080&fit=crop',
       cta: 'Get Free Quote',
       ctaLink: 'https://wa.me/919000245521?text=Hi, I\'m interested in your event management services. Can you help me with a free quote?'
     },
@@ -74,7 +74,7 @@ const Hero = () => {
       title: 'Wedding Planning',
       subtitle: 'Made Perfect',
       description: 'From intimate ceremonies to grand celebrations, we handle every detail of your special day with expert coordination and flawless execution.',
-      image: '/images/Wedding-1280x720.jpg',
+      image: 'https://images.unsplash.com/photo-1519741497674-611481863552?w=1920&h=1080&fit=crop',
       cta: 'Plan Your Wedding',
       ctaLink: 'https://wa.me/919000245521?text=Hi, I\'m interested in your wedding planning services. Can you help me plan my special day?'
     },

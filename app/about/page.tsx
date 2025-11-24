@@ -168,7 +168,7 @@ const About = () => {
             </blockquote>
             <div className="flex items-center justify-center space-x-4">
               <Image
-                src="/images/whatsapp.jpg"
+                src="/images/whatsap.webp"
                 alt="Client testimonial"
                 width={60}
                 height={60}

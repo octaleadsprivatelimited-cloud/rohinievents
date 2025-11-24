@@ -107,7 +107,7 @@ const CateringServices = () => {
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="/images/tejas catering.jpg"
+            src="https://images.unsplash.com/photo-1556912172-45b7abe8b7e1?w=1920&h=1080&fit=crop"
             alt="Catering Services"
             fill
             className="object-cover"

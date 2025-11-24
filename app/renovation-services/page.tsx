@@ -216,7 +216,7 @@ const RenovationServices = () => {
             
             <div className="relative">
               <Image
-                src="/images/haldi (2).jpeg"
+                src="https://images.unsplash.com/photo-1511578314322-379afb476865?w=1920&h=1080&fit=crop"
                 alt="Renovation process"
                 width={600}
                 height={700}

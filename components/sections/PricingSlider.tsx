@@ -36,7 +36,7 @@ const PricingSlider = () => {
         '1 Year Warranty'
       ],
       popular: false,
-      image: '/images/haldi (1).jpeg'
+      image: 'https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=800&h=600&fit=crop'
     },
     {
       id: '3BHK',
@@ -55,7 +55,7 @@ const PricingSlider = () => {
         'Free Maintenance'
       ],
       popular: true,
-      image: '/images/haldi (2).jpeg'
+      image: 'https://images.unsplash.com/photo-1519741497674-611481863552?w=800&h=600&fit=crop'
     },
     {
       id: '4BHK',
@@ -75,7 +75,7 @@ const PricingSlider = () => {
         'Custom Furniture'
       ],
       popular: false,
-      image: '/images/haldi (3).jpeg'
+      image: 'https://images.unsplash.com/photo-1511578314322-379afb476865?w=800&h=600&fit=crop'
     },
     {
       id: '4BHK+',
@@ -96,44 +96,44 @@ const PricingSlider = () => {
         'Smart Home Integration'
       ],
       popular: false,
-      image: '/images/haldi (4).jpeg'
+      image: 'https://images.unsplash.com/photo-1556912172-45b7abe8b7e1?w=800&h=600&fit=crop'
     }
   ];
 
   const sliderImages = [
     {
       id: 1,
-      image: '/images/haldi (1).jpeg',
-      title: 'Modern Living Room',
-      description: 'Contemporary design with clean lines'
+      image: 'https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=800&h=600&fit=crop',
+      title: 'Wedding Decoration',
+      description: 'Beautiful wedding event decoration'
     },
     {
       id: 2,
-      image: '/images/haldi (2).jpeg',
-      title: 'Luxury Bedroom',
-      description: 'Elegant master bedroom design'
+      image: 'https://images.unsplash.com/photo-1519741497674-611481863552?w=800&h=600&fit=crop',
+      title: 'Elegant Celebration',
+      description: 'Stunning event decoration design'
     },
     {
       id: 3,
-      image: '/images/house decoration (1).jpeg',
-      title: 'Professional Office',
-      description: 'Modern workspace design'
+      image: 'https://images.unsplash.com/photo-1511578314322-379afb476865?w=800&h=600&fit=crop',
+      title: 'Corporate Event',
+      description: 'Professional event setup'
     },
     {
       id: 4,
-      image: '/images/house decoration (2).jpeg',
-      title: 'Contemporary Kitchen',
-      description: 'Sleek kitchen with premium finishes'
+      image: 'https://images.unsplash.com/photo-1556912172-45b7abe8b7e1?w=800&h=600&fit=crop',
+      title: 'Catering Setup',
+      description: 'Premium catering service'
     },
     {
       id: 5,
-      image: '/images/house decoration (3).jpeg',
-      title: 'Hospitality Space',
-      description: 'Sophisticated commercial design'
+      image: 'https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=800&h=600&fit=crop',
+      title: 'Event Venue',
+      description: 'Sophisticated event decoration'
     },
     {
       id: 6,
-      image: '/images/sangeeth decoraton (1).jpeg',
+      image: 'https://images.unsplash.com/photo-1511578314322-379afb476865?w=800&h=600&fit=crop',
       title: 'Minimalist Dining',
       description: 'Clean, modern dining space'
     }

@@ -116,7 +116,7 @@ const LandingPage = () => {
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900">
         <div className="absolute inset-0">
           <Image
-            src="/images/Wedding-1280x720.jpg"
+            src="https://images.unsplash.com/photo-1519741497674-611481863552?w=1920&h=1080&fit=crop"
             alt="Beautiful Interior Design"
             fill
             className="object-cover opacity-40"

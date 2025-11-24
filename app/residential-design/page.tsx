@@ -221,7 +221,7 @@ const ResidentialDesign = () => {
             
             <div className="relative">
               <Image
-                src="/images/haldi (1).jpeg"
+                src="https://images.unsplash.com/photo-1519741497674-611481863552?w=1920&h=1080&fit=crop"
                 alt="Why choose us for residential design"
                 width={600}
                 height={700}
