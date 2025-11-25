@@ -49,7 +49,14 @@ const Footer = () => {
       <div className="container-custom py-8 px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-6">
           <Link href="/" className="inline-block">
-            <span className="text-3xl font-bold text-white">Rohini Decorations & Events</span>
+            <Image
+              src="/images/logo.png"
+              alt="Rohini Decorations & Events"
+              width={200}
+              height={70}
+              className="h-16 w-auto object-contain mx-auto"
+              priority
+            />
           </Link>
           <p className="text-neutral-400 text-sm mt-2">Creating Memorable Events</p>
         </div>

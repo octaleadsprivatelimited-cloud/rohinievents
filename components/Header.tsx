@@ -77,10 +77,17 @@ const Header = () => {
           <div className="container-custom">
             <div className="flex items-center justify-between h-14 lg:h-14">
 
-              {/* Logo Text */}
+              {/* Logo */}
               <div className="flex items-center flex-shrink-0">
                 <Link href="/" className="flex items-center">
-                  <span className="text-2xl font-bold text-primary-700">Rohini Decorations</span>
+                  <Image
+                    src="/images/logo.png"
+                    alt="Rohini Decorations & Events"
+                    width={240}
+                    height={80}
+                    className="h-16 w-auto object-contain"
+                    priority
+                  />
                 </Link>
               </div>
 
@@ -208,10 +215,17 @@ const Header = () => {
                       transition={{ duration: 0.3, ease: 'easeInOut' }}
                     >
                       <div className="container-custom py-4">
-                        {/* Mobile Logo Text */}
+                        {/* Mobile Logo */}
                         <div className="flex justify-center mb-6">
                           <Link href="/" className="flex items-center">
-                            <span className="text-2xl font-bold text-primary-700">Rohini Decorations</span>
+                            <Image
+                              src="/images/logo.png"
+                              alt="Rohini Decorations & Events"
+                              width={240}
+                              height={80}
+                              className="h-16 w-auto object-contain"
+                              priority
+                            />
                           </Link>
                         </div>
 
