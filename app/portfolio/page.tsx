@@ -9,57 +9,246 @@ const Portfolio = () => {
   const projects = [
     {
       id: 1,
-      title: 'Royal Wedding Celebration',
+      title: 'Elegant Wedding Celebration',
       category: 'wedding',
-      type: 'Complete Wedding Planning',
-      year: '2023',
-      image: 'https://images.unsplash.com/photo-1519741497674-611481863552?w=800&h=600&fit=crop',
+      type: 'Wedding Planning',
+      year: '2024',
+      image: '/images/gallery-1.jpeg',
       description: 'A grand wedding celebration with elegant decorations, premium catering, and flawless coordination.'
     },
     {
       id: 2,
-      title: 'Tech Conference 2023',
+      title: 'Corporate Event Excellence',
       category: 'corporate',
-      type: 'Corporate Event Management',
-      year: '2023',
-      image: 'https://images.unsplash.com/photo-1511578314322-379afb476865?w=800&h=600&fit=crop',
-      description: 'Professional corporate conference with 500+ attendees, complete technical setup and catering.'
+      type: 'Corporate Event',
+      year: '2024',
+      image: '/images/gallery-2.jpeg',
+      description: 'Professional corporate event with complete setup, catering, and event management services.'
     },
     {
       id: 3,
-      title: 'Product Launch Event',
-      category: 'corporate',
-      type: 'Product Launch',
-      year: '2023',
-      image: 'https://images.unsplash.com/photo-1520854221256-17451cc331bf?w=800&h=600&fit=crop',
-      description: 'Stunning product launch event with media coverage, live demonstrations, and entertainment.'
+      title: 'Festive Celebration',
+      category: 'party',
+      type: 'Party Planning',
+      year: '2024',
+      image: '/images/gallery-3.jpeg',
+      description: 'Colorful celebration with beautiful decorations, entertainment, and delicious catering.'
     },
     {
       id: 4,
-      title: 'Birthday Celebration',
+      title: 'Special Occasion Event',
       category: 'party',
-      type: 'Party Planning',
-      year: '2023',
-      image: 'https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=800&h=600&fit=crop',
-      description: 'Colorful birthday celebration with decorations, entertainment, and delicious catering.'
+      type: 'Event Decoration',
+      year: '2024',
+      image: '/images/gallery-4.jpeg',
+      description: 'Stunning event decoration with attention to detail and premium services.'
     },
     {
       id: 5,
-      title: 'Anniversary Celebration',
-      category: 'party',
-      type: 'Anniversary Event',
-      year: '2023',
-      image: 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&h=600&fit=crop',
-      description: 'Elegant anniversary celebration with fine dining, entertainment, and beautiful decorations.'
+      title: 'Grand Celebration',
+      category: 'wedding',
+      type: 'Complete Event Management',
+      year: '2024',
+      image: '/images/gallery-5.jpeg',
+      description: 'A memorable celebration with elegant decorations and flawless execution.'
     },
     {
       id: 6,
-      title: 'Team Building Event',
+      title: 'Luxury Event Design',
       category: 'corporate',
-      type: 'Team Building',
-      year: '2023',
-      image: 'https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=800&h=600&fit=crop',
-      description: 'Fun and engaging team building activities with entertainment and catering services.'
+      type: 'Event Design',
+      year: '2024',
+      image: '/images/gallery-6.jpeg',
+      description: 'Sophisticated event design with premium decorations and professional services.'
+    },
+    {
+      id: 7,
+      title: 'Celebration Event',
+      category: 'party',
+      type: 'Party Planning',
+      year: '2024',
+      image: '/images/gallery-7.jpeg',
+      description: 'Beautiful celebration with stunning decorations and excellent catering services.'
+    },
+    {
+      id: 8,
+      title: 'Event Excellence',
+      category: 'corporate',
+      type: 'Corporate Event',
+      year: '2024',
+      image: '/images/gallery-8.jpeg',
+      description: 'Professional event management with complete coordination and premium services.'
+    },
+    {
+      id: 9,
+      title: 'Special Event Celebration',
+      category: 'party',
+      type: 'Event Decoration',
+      year: '2024',
+      image: '/images/gallery-9.jpeg',
+      description: 'Elegant event decoration with beautiful arrangements and professional setup.'
+    },
+    {
+      id: 10,
+      title: 'Memorable Celebration',
+      category: 'wedding',
+      type: 'Wedding Planning',
+      year: '2024',
+      image: '/images/gallery-10.jpeg',
+      description: 'A beautiful wedding celebration with elegant decorations and flawless coordination.'
+    },
+    {
+      id: 11,
+      title: 'Corporate Gathering',
+      category: 'corporate',
+      type: 'Corporate Event',
+      year: '2024',
+      image: '/images/gallery-11.jpeg',
+      description: 'Professional corporate event with complete setup and premium services.'
+    },
+    {
+      id: 12,
+      title: 'Festive Event',
+      category: 'party',
+      type: 'Party Planning',
+      year: '2024',
+      image: '/images/gallery-12.jpeg',
+      description: 'Colorful festive event with beautiful decorations and entertainment.'
+    },
+    {
+      id: 13,
+      title: 'Elegant Event Design',
+      category: 'wedding',
+      type: 'Event Decoration',
+      year: '2024',
+      image: '/images/gallery-13.jpeg',
+      description: 'Sophisticated event design with elegant decorations and premium services.'
+    },
+    {
+      id: 14,
+      title: 'Grand Event Celebration',
+      category: 'party',
+      type: 'Complete Event Management',
+      year: '2024',
+      image: '/images/gallery-14.jpeg',
+      description: 'A grand celebration with stunning decorations and flawless execution.'
+    },
+    {
+      id: 15,
+      title: 'Luxury Celebration',
+      category: 'corporate',
+      type: 'Corporate Event',
+      year: '2024',
+      image: '/images/gallery-15.jpeg',
+      description: 'Premium event management with elegant decorations and professional services.'
+    },
+    {
+      id: 16,
+      title: 'Special Occasion',
+      category: 'party',
+      type: 'Party Planning',
+      year: '2024',
+      image: '/images/gallery-16.jpeg',
+      description: 'Beautiful special occasion celebration with excellent decorations and catering.'
+    },
+    {
+      id: 17,
+      title: 'Event Excellence',
+      category: 'wedding',
+      type: 'Wedding Planning',
+      year: '2024',
+      image: '/images/gallery-17.jpeg',
+      description: 'A memorable wedding celebration with elegant decorations and premium services.'
+    },
+    {
+      id: 18,
+      title: 'Corporate Event',
+      category: 'corporate',
+      type: 'Corporate Event',
+      year: '2024',
+      image: '/images/gallery-18.jpeg',
+      description: 'Professional corporate event with complete coordination and setup.'
+    },
+    {
+      id: 19,
+      title: 'Celebration Event',
+      category: 'party',
+      type: 'Event Decoration',
+      year: '2024',
+      image: '/images/gallery-19.jpeg',
+      description: 'Stunning celebration with beautiful decorations and professional services.'
+    },
+    {
+      id: 20,
+      title: 'Grand Celebration',
+      category: 'wedding',
+      type: 'Complete Event Management',
+      year: '2024',
+      image: '/images/gallery-20.jpeg',
+      description: 'A grand celebration with elegant decorations and flawless execution.'
+    },
+    {
+      id: 21,
+      title: 'Luxury Event',
+      category: 'corporate',
+      type: 'Event Design',
+      year: '2024',
+      image: '/images/gallery-21.jpeg',
+      description: 'Sophisticated event design with premium decorations and services.'
+    },
+    {
+      id: 22,
+      title: 'Special Event',
+      category: 'party',
+      type: 'Party Planning',
+      year: '2024',
+      image: '/images/gallery-22.jpeg',
+      description: 'Beautiful special event with excellent decorations and catering.'
+    },
+    {
+      id: 23,
+      title: 'Elegant Celebration',
+      category: 'wedding',
+      type: 'Wedding Planning',
+      year: '2024',
+      image: '/images/gallery-23.jpeg',
+      description: 'An elegant wedding celebration with beautiful decorations and coordination.'
+    },
+    {
+      id: 24,
+      title: 'Corporate Excellence',
+      category: 'corporate',
+      type: 'Corporate Event',
+      year: '2024',
+      image: '/images/gallery-24.jpeg',
+      description: 'Professional corporate event with complete setup and premium services.'
+    },
+    {
+      id: 25,
+      title: 'Festive Celebration',
+      category: 'party',
+      type: 'Event Decoration',
+      year: '2024',
+      image: '/images/gallery-25.jpeg',
+      description: 'Colorful festive celebration with stunning decorations and entertainment.'
+    },
+    {
+      id: 26,
+      title: 'Memorable Event',
+      category: 'wedding',
+      type: 'Complete Event Management',
+      year: '2024',
+      image: '/images/gallery-26.jpeg',
+      description: 'A memorable event with elegant decorations and flawless coordination.'
+    },
+    {
+      id: 27,
+      title: 'Grand Event',
+      category: 'corporate',
+      type: 'Corporate Event',
+      year: '2024',
+      image: '/images/gallery-27.jpeg',
+      description: 'A grand corporate event with professional setup and premium services.'
     }
   ];
 

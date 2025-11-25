@@ -46,7 +46,7 @@ const About = () => {
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="https://images.unsplash.com/photo-1519741497674-611481863552?w=1920&h=1080&fit=crop"
+            src="/images/gallery-15.jpeg"
             alt="Our event management team"
             fill
             className="object-cover"
@@ -110,11 +110,11 @@ const About = () => {
             
             <div className="relative">
               <Image
-                src="https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=800&h=600&fit=crop"
+                src="/images/gallery-16.jpeg"
                 alt="Our event planning process"
                 width={600}
                 height={700}
-                className="rounded-2xl shadow-2xl"
+                className="rounded-2xl shadow-2xl object-cover"
               />
               <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-accent/10 rounded-full"></div>
             </div>

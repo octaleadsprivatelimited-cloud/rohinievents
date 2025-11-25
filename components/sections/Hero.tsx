@@ -65,7 +65,7 @@ const Hero = () => {
       title: 'Wedding Planning',
       subtitle: 'Made Perfect',
       description: 'From intimate ceremonies to grand celebrations, we handle every detail of your special day with expert coordination and flawless execution.',
-      image: 'https://images.unsplash.com/photo-1519741497674-611481863552?w=1920&h=1080&fit=crop',
+      image: '/images/gallery-18.jpeg',
       cta: 'Plan Your Wedding',
       ctaLink: 'https://wa.me/919000245521?text=Hi, I\'m interested in your wedding planning services. Can you help me plan my special day?'
     },
@@ -74,7 +74,7 @@ const Hero = () => {
       title: 'Corporate Events',
       subtitle: 'Executed to Perfection',
       description: 'Professional corporate event management including conferences, seminars, product launches, and team building events with complete manpower organization.',
-      image: 'https://images.unsplash.com/photo-1511578314322-379afb476865?w=1920&h=1080&fit=crop',
+      image: '/images/gallery-19.jpeg',
       cta: 'Plan Your Event',
       ctaLink: 'https://wa.me/919000245521?text=Hi, I\'m interested in your corporate event management services. Can you help me plan my event?'
     }

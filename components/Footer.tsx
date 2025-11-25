@@ -121,7 +121,20 @@ const Footer = () => {
 
         <div className="border-t border-neutral-700/50 pt-4">
           <div className="flex flex-col md:flex-row items-center justify-between space-y-3 md:space-y-0">
-                    <p className="text-neutral-400 text-sm font-medium">© {currentYear} Rohini Decorations & Events. All rights reserved.</p>
+            <p className="text-neutral-400 text-sm font-medium">
+              © {currentYear} Rohini Decorations & Events. All rights reserved. 
+              <span className="ml-2">
+                Developed by{' '}
+                <a 
+                  href="https://octaleads.com" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-primary-400 hover:text-primary-300 transition-colors duration-200 font-semibold"
+                >
+                  OctaLeads
+                </a>
+              </span>
+            </p>
           </div>
         </div>
       </div>

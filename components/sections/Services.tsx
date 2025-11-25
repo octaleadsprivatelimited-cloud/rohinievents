@@ -9,7 +9,7 @@ const Services = () => {
       title: 'Wedding Planning',
       description: 'Complete wedding coordination from engagement to reception with expert planning and flawless execution.',
       features: ['Venue Selection', 'Vendor Management', 'Timeline Planning', 'Day Coordination'],
-      image: 'https://images.unsplash.com/photo-1519741497674-611481863552?w=800&h=600&fit=crop',
+      image: '/images/gallery-9.jpeg',
       link: '/wedding-planning'
     },
     {
@@ -17,7 +17,7 @@ const Services = () => {
       title: 'Corporate Events',
       description: 'Professional corporate event management including conferences, seminars, and team building events.',
       features: ['Conference Planning', 'Seminar Organization', 'Team Building', 'Product Launches'],
-      image: 'https://images.unsplash.com/photo-1511578314322-379afb476865?w=800&h=600&fit=crop',
+      image: '/images/gallery-10.jpeg',
       link: '/corporate-events'
     },
     {
@@ -25,7 +25,7 @@ const Services = () => {
       title: 'Catering Services',
       description: 'Premium catering solutions with diverse menus and professional service for all types of events.',
       features: ['Custom Menus', 'Professional Staff', 'Equipment Setup', 'Cleanup Services'],
-      image: 'https://images.unsplash.com/photo-1556912172-45b7abe8b7e1?w=800&h=600&fit=crop',
+      image: '/images/gallery-11.jpeg',
       link: '/catering-services'
     },
     {
@@ -33,7 +33,7 @@ const Services = () => {
       title: 'Event Decoration',
       description: 'Stunning event decorations and floral arrangements that create the perfect ambiance for your celebration.',
       features: ['Floral Design', 'Theme Decoration', 'Lighting Setup', 'Stage Design'],
-      image: 'https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=800&h=600&fit=crop',
+      image: '/images/gallery-12.jpeg',
       link: '/event-decoration'
     },
     {
@@ -41,7 +41,7 @@ const Services = () => {
       title: 'Photography Services',
       description: 'Professional event photography and videography to capture your special moments beautifully.',
       features: ['Event Photography', 'Video Production', 'Photo Editing', 'Album Design'],
-      image: 'https://images.unsplash.com/photo-1520854221256-17451cc331bf?w=800&h=600&fit=crop',
+      image: '/images/gallery-13.jpeg',
       link: '/photography-services'
     },
     {
@@ -49,7 +49,7 @@ const Services = () => {
       title: 'Entertainment Services',
       description: 'Complete entertainment solutions including DJ services, live music, and special performances.',
       features: ['DJ Services', 'Live Music', 'Sound Systems', 'Special Performances'],
-      image: 'https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=800&h=600&fit=crop',
+      image: '/images/gallery-14.jpeg',
       link: '/entertainment-services'
     }
   ];

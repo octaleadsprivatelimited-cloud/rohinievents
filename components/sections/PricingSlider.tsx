@@ -36,7 +36,7 @@ const PricingSlider = () => {
         '1 Year Warranty'
       ],
       popular: false,
-      image: 'https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=800&h=600&fit=crop'
+      image: '/images/gallery-20.jpeg'
     },
     {
       id: '3BHK',
@@ -55,7 +55,7 @@ const PricingSlider = () => {
         'Free Maintenance'
       ],
       popular: true,
-      image: 'https://images.unsplash.com/photo-1519741497674-611481863552?w=800&h=600&fit=crop'
+      image: '/images/gallery-21.jpeg'
     },
     {
       id: '4BHK',
@@ -75,7 +75,7 @@ const PricingSlider = () => {
         'Custom Furniture'
       ],
       popular: false,
-      image: 'https://images.unsplash.com/photo-1511578314322-379afb476865?w=800&h=600&fit=crop'
+      image: '/images/gallery-22.jpeg'
     },
     {
       id: '4BHK+',
@@ -96,44 +96,44 @@ const PricingSlider = () => {
         'Smart Home Integration'
       ],
       popular: false,
-      image: 'https://images.unsplash.com/photo-1556912172-45b7abe8b7e1?w=800&h=600&fit=crop'
+      image: '/images/gallery-23.jpeg'
     }
   ];
 
   const sliderImages = [
     {
       id: 1,
-      image: 'https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=800&h=600&fit=crop',
+      image: '/images/gallery-24.jpeg',
       title: 'Wedding Decoration',
       description: 'Beautiful wedding event decoration'
     },
     {
       id: 2,
-      image: 'https://images.unsplash.com/photo-1519741497674-611481863552?w=800&h=600&fit=crop',
+      image: '/images/gallery-25.jpeg',
       title: 'Elegant Celebration',
       description: 'Stunning event decoration design'
     },
     {
       id: 3,
-      image: 'https://images.unsplash.com/photo-1511578314322-379afb476865?w=800&h=600&fit=crop',
+      image: '/images/gallery-26.jpeg',
       title: 'Corporate Event',
       description: 'Professional event setup'
     },
     {
       id: 4,
-      image: 'https://images.unsplash.com/photo-1556912172-45b7abe8b7e1?w=800&h=600&fit=crop',
+      image: '/images/gallery-27.jpeg',
       title: 'Catering Setup',
       description: 'Premium catering service'
     },
     {
       id: 5,
-      image: 'https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=800&h=600&fit=crop',
+      image: '/images/gallery-1.jpeg',
       title: 'Event Venue',
       description: 'Sophisticated event decoration'
     },
     {
       id: 6,
-      image: 'https://images.unsplash.com/photo-1511578314322-379afb476865?w=800&h=600&fit=crop',
+      image: '/images/gallery-2.jpeg',
       title: 'Minimalist Dining',
       description: 'Clean, modern dining space'
     }

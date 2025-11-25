@@ -9,7 +9,35 @@ const Gallery = () => {
   const [selectedVideo, setSelectedVideo] = useState<number | null>(null);
   const [activeTab, setActiveTab] = useState<'images' | 'videos'>('images');
 
-  const galleryImages: any[] = [];
+  const galleryImages: any[] = [
+    { id: 1, image: '/images/gallery-1.jpeg', type: 'Event' },
+    { id: 2, image: '/images/gallery-2.jpeg', type: 'Event' },
+    { id: 3, image: '/images/gallery-3.jpeg', type: 'Event' },
+    { id: 4, image: '/images/gallery-4.jpeg', type: 'Event' },
+    { id: 5, image: '/images/gallery-5.jpeg', type: 'Event' },
+    { id: 6, image: '/images/gallery-6.jpeg', type: 'Event' },
+    { id: 7, image: '/images/gallery-7.jpeg', type: 'Event' },
+    { id: 8, image: '/images/gallery-8.jpeg', type: 'Event' },
+    { id: 9, image: '/images/gallery-9.jpeg', type: 'Event' },
+    { id: 10, image: '/images/gallery-10.jpeg', type: 'Event' },
+    { id: 11, image: '/images/gallery-11.jpeg', type: 'Event' },
+    { id: 12, image: '/images/gallery-12.jpeg', type: 'Event' },
+    { id: 13, image: '/images/gallery-13.jpeg', type: 'Event' },
+    { id: 14, image: '/images/gallery-14.jpeg', type: 'Event' },
+    { id: 15, image: '/images/gallery-15.jpeg', type: 'Event' },
+    { id: 16, image: '/images/gallery-16.jpeg', type: 'Event' },
+    { id: 17, image: '/images/gallery-17.jpeg', type: 'Event' },
+    { id: 18, image: '/images/gallery-18.jpeg', type: 'Event' },
+    { id: 19, image: '/images/gallery-19.jpeg', type: 'Event' },
+    { id: 20, image: '/images/gallery-20.jpeg', type: 'Event' },
+    { id: 21, image: '/images/gallery-21.jpeg', type: 'Event' },
+    { id: 22, image: '/images/gallery-22.jpeg', type: 'Event' },
+    { id: 23, image: '/images/gallery-23.jpeg', type: 'Event' },
+    { id: 24, image: '/images/gallery-24.jpeg', type: 'Event' },
+    { id: 25, image: '/images/gallery-25.jpeg', type: 'Event' },
+    { id: 26, image: '/images/gallery-26.jpeg', type: 'Event' },
+    { id: 27, image: '/images/gallery-27.jpeg', type: 'Event' },
+  ];
 
   const youtubeVideos: any[] = [];
 

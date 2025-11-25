@@ -81,11 +81,11 @@ const AboutPreview = () => {
           <div className="relative">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <Image
-                src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&h=1000&fit=crop"
+                src="/images/gallery-17.jpeg"
                 alt="Our design team at work"
                 width={600}
                 height={700}
-                className="w-full h-auto"
+                className="w-full h-auto object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
               

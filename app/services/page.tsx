@@ -39,7 +39,7 @@ const Services = () => {
         'Wedding day coordination',
         'Guest management and RSVP handling'
       ],
-      image: 'https://images.unsplash.com/photo-1519741497674-611481863552?w=800&h=600&fit=crop',
+      image: '/images/gallery-1.jpeg',
       link: '/wedding-planning',
       duration: '6-12 months'
     },
@@ -55,7 +55,7 @@ const Services = () => {
         'Trade show coordination',
         'Award ceremonies and galas'
       ],
-      image: 'https://images.unsplash.com/photo-1511578314322-379afb476865?w=800&h=600&fit=crop',
+      image: '/images/gallery-2.jpeg',
       link: '/corporate-events',
       duration: '2-8 weeks'
     },
@@ -71,7 +71,7 @@ const Services = () => {
         'Dietary requirement accommodation',
         'Complete setup and cleanup'
       ],
-      image: 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&h=600&fit=crop',
+      image: '/images/gallery-3.jpeg',
       link: '/catering-services',
       duration: '1-3 days'
     },
@@ -87,7 +87,7 @@ const Services = () => {
         'Table settings and place cards',
         'Custom prop and furniture rental'
       ],
-      image: 'https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=800&h=600&fit=crop',
+      image: '/images/gallery-4.jpeg',
       link: '/event-decoration',
       duration: '1-2 days'
     },
@@ -103,7 +103,7 @@ const Services = () => {
         'Digital gallery delivery',
         'Print and album services'
       ],
-      image: 'https://images.unsplash.com/photo-1520854221256-17451cc331bf?w=800&h=600&fit=crop',
+      image: '/images/gallery-5.jpeg',
       link: '/photography-services',
       duration: 'Event day'
     },
@@ -119,7 +119,7 @@ const Services = () => {
         'Dance floor management',
         'Entertainment booking and coordination'
       ],
-      image: 'https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=800&h=600&fit=crop',
+      image: '/images/gallery-6.jpeg',
       link: '/entertainment-services',
       duration: 'Event day'
     }
@@ -154,7 +154,7 @@ const Services = () => {
       <section className="relative h-96 flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
           <Image
-            src="https://images.unsplash.com/photo-1511578314322-379afb476865?w=1920&h=1080&fit=crop"
+            src="/images/gallery-7.jpeg"
             alt="Our event management services"
             fill
             className="object-cover"
@@ -346,11 +346,11 @@ const Services = () => {
             
             <div className="relative">
               <Image
-                src="https://placehold.co/800x900?text=Why+Choose+Us"
+                src="/images/gallery-8.jpeg"
                 alt="Why choose us"
                 width={600}
                 height={700}
-                className="rounded-2xl shadow-2xl"
+                className="rounded-2xl shadow-2xl object-cover"
               />
               <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-accent/10 rounded-full"></div>
             </div>

@@ -8,57 +8,57 @@ const Portfolio = () => {
   const projects = [
     {
       id: 1,
-      title: 'Modern Family Home',
-      category: 'residential',
-      type: 'Complete Renovation',
-      year: '2023',
-      image: 'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&h=600&fit=crop',
-      description: 'A stunning transformation of a traditional family home into a modern, functional space.'
+      title: 'Elegant Wedding Celebration',
+      category: 'wedding',
+      type: 'Wedding Planning',
+      year: '2024',
+      image: '/images/gallery-1.jpeg',
+      description: 'A grand wedding celebration with elegant decorations, premium catering, and flawless coordination.'
     },
     {
       id: 2,
-      title: 'Luxury Penthouse',
-      category: 'luxury',
-      type: 'Interior Design',
-      year: '2023',
-      image: 'https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=800&h=600&fit=crop',
-      description: 'Elegant penthouse design with panoramic city views and premium finishes.'
+      title: 'Corporate Event Excellence',
+      category: 'corporate',
+      type: 'Corporate Event',
+      year: '2024',
+      image: '/images/gallery-2.jpeg',
+      description: 'Professional corporate event with complete setup, catering, and event management services.'
     },
     {
       id: 3,
-      title: 'Tech Startup Office',
-      category: 'commercial',
-      type: 'Office Design',
-      year: '2023',
-      image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&h=600&fit=crop',
-      description: 'Innovative workspace design that promotes creativity and collaboration.'
+      title: 'Festive Celebration',
+      category: 'party',
+      type: 'Party Planning',
+      year: '2024',
+      image: '/images/gallery-3.jpeg',
+      description: 'Colorful celebration with beautiful decorations, entertainment, and delicious catering.'
     },
     {
       id: 4,
-      title: 'Contemporary Living',
-      category: 'modern',
-      type: 'Space Planning',
-      year: '2023',
-      image: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800&h=600&fit=crop',
-      description: 'Clean, minimalist design with focus on natural light and open spaces.'
+      title: 'Special Occasion Event',
+      category: 'party',
+      type: 'Event Decoration',
+      year: '2024',
+      image: '/images/gallery-4.jpeg',
+      description: 'Stunning event decoration with attention to detail and premium services.'
     },
     {
       id: 5,
-      title: 'Boutique Hotel Lobby',
-      category: 'commercial',
-      type: 'Hospitality Design',
-      year: '2023',
-      image: 'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&h=600&fit=crop',
-      description: 'Sophisticated hotel lobby design that creates a memorable first impression.'
+      title: 'Grand Celebration',
+      category: 'wedding',
+      type: 'Complete Event Management',
+      year: '2024',
+      image: '/images/gallery-5.jpeg',
+      description: 'A memorable celebration with elegant decorations and flawless execution.'
     },
     {
       id: 6,
-      title: 'Cozy Apartment',
-      category: 'residential',
-      type: 'Small Space Design',
-      year: '2023',
-      image: 'https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=800&h=600&fit=crop',
-      description: 'Maximizing space in a small apartment with smart storage solutions.'
+      title: 'Luxury Event Design',
+      category: 'corporate',
+      type: 'Event Design',
+      year: '2024',
+      image: '/images/gallery-6.jpeg',
+      description: 'Sophisticated event design with premium decorations and professional services.'
     }
   ];
 
