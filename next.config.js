@@ -28,6 +28,46 @@ const nextConfig = {
   compress: true,
   poweredByHeader: false,
   generateEtags: false,
+  async redirects() {
+    return [
+      // Redirect removed interior design pages to services page
+      {
+        source: '/residential-design',
+        destination: '/services',
+        permanent: true,
+      },
+      {
+        source: '/commercial-design',
+        destination: '/services',
+        permanent: true,
+      },
+      {
+        source: '/space-planning',
+        destination: '/services',
+        permanent: true,
+      },
+      {
+        source: '/color-consultation',
+        destination: '/services',
+        permanent: true,
+      },
+      {
+        source: '/furniture-selection',
+        destination: '/services',
+        permanent: true,
+      },
+      {
+        source: '/renovation-services',
+        destination: '/services',
+        permanent: true,
+      },
+      {
+        source: '/interior-design-hyderabad',
+        destination: '/services',
+        permanent: true,
+      },
+    ];
+  },
   async headers() {
     return [
       {
