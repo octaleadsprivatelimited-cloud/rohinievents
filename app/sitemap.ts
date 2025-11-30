@@ -91,48 +91,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly',
       priority: 0.8,
     },
-    {
-      url: `${baseUrl}/residential-design`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.7,
-    },
-    {
-      url: `${baseUrl}/commercial-design`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.7,
-    },
-    {
-      url: `${baseUrl}/space-planning`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.7,
-    },
-    {
-      url: `${baseUrl}/color-consultation`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.7,
-    },
-    {
-      url: `${baseUrl}/furniture-selection`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.7,
-    },
-    {
-      url: `${baseUrl}/renovation-services`,
-      lastModified: new Date(),
-      changeFrequency: 'monthly',
-      priority: 0.7,
-    },
-    {
-      url: `${baseUrl}/interior-design-hyderabad`,
-      lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 0.9,
-    },
     // Legal pages
     {
       url: `${baseUrl}/privacy-policy`,
@@ -164,13 +122,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/event-decoration',
     '/photography-services',
     '/entertainment-services',
-    '/residential-design',
-    '/commercial-design',
-    '/space-planning',
-    '/color-consultation',
-    '/furniture-selection',
-    '/renovation-services',
-    '/interior-design-hyderabad',
     '/privacy-policy',
     '/terms-of-service',
   ]);

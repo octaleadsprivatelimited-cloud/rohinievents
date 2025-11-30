@@ -2,11 +2,16 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://dreamspaceinteriors.com/sitemap.xml
+Sitemap: https://rohinievents.com/sitemap.xml
 
-# Disallow admin or private areas (if any)
-# Disallow: /admin/
-# Disallow: /private/
+# Disallow interior design pages (not relevant to event management)
+Disallow: /residential-design
+Disallow: /commercial-design
+Disallow: /space-planning
+Disallow: /color-consultation
+Disallow: /furniture-selection
+Disallow: /renovation-services
+Disallow: /interior-design-hyderabad
 
 # Allow all major pages
 Allow: /
@@ -14,15 +19,15 @@ Allow: /about
 Allow: /services
 Allow: /portfolio
 Allow: /gallery
+Allow: /reviews
 Allow: /contact
-Allow: /blog
 Allow: /landing
-Allow: /residential-design
-Allow: /commercial-design
-Allow: /space-planning
-Allow: /color-consultation
-Allow: /furniture-selection
-Allow: /renovation-services
+Allow: /wedding-planning
+Allow: /corporate-events
+Allow: /catering-services
+Allow: /event-decoration
+Allow: /photography-services
+Allow: /entertainment-services
 
 # Allow static assets
 Allow: /images/
