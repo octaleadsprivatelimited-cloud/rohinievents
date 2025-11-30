@@ -6,6 +6,26 @@ import { ArrowRight, Sparkles, Flower2, Lightbulb, Palette, CheckCircle, Star, Q
 export const metadata: Metadata = {
   title: 'Event Decoration Services in Venkateswara Nagar, Hyderabad | Beautiful Event Decorations | Rohini Decorations & Events',
   description: 'Professional event decoration services in Venkateswara Nagar, Vivekananda Nagar, Hyderabad-500072. Stunning decorations for weddings, corporate events, parties, and celebrations with floral arrangements and theme decorations. Best event decorators in Hyderabad.',
+  keywords: [
+    'event decoration hyderabad',
+    'event decoration services hyderabad',
+    'event decorators hyderabad',
+    'event decoration venkateswara nagar',
+    'wedding decoration hyderabad',
+    'corporate event decoration hyderabad',
+    'party decoration hyderabad',
+    'floral decoration hyderabad',
+    'theme decoration hyderabad',
+    'event decoration company hyderabad',
+    'best event decorators hyderabad',
+    'professional event decoration hyderabad',
+    'event decoration vivekananda nagar',
+    'hyderabad event decoration',
+    'event decoration telangana',
+    'lighting decoration hyderabad',
+    'stage decoration hyderabad',
+    'venue decoration hyderabad'
+  ],
   openGraph: {
     title: 'Event Decoration Services in Venkateswara Nagar, Hyderabad | Beautiful Event Decorations | Rohini Decorations & Events',
     description: 'Professional event decoration services in Venkateswara Nagar, Vivekananda Nagar, Hyderabad-500072. Beautiful decorations for all types of events including weddings, corporate events, and celebrations.',

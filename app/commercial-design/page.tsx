@@ -6,6 +6,32 @@ import { ArrowRight, Building, CheckCircle, Star, Users, Target, Award } from 'l
 export const metadata: Metadata = {
   title: 'Commercial Event Management Services in Venkateswara Nagar, Hyderabad | Rohini Decorations & Events',
   description: 'Professional commercial event management services in Venkateswara Nagar, Vivekananda Nagar, Hyderabad-500072. Corporate events, office celebrations, business gatherings, and commercial event coordination. Best commercial event managers in Hyderabad.',
+  keywords: [
+    'commercial event management hyderabad',
+    'corporate event management hyderabad',
+    'business event management hyderabad',
+    'office event management hyderabad',
+    'commercial event coordination hyderabad',
+    'corporate event services hyderabad',
+    'business event services hyderabad',
+    'commercial event planners hyderabad',
+    'corporate event planners hyderabad',
+    'business event planners hyderabad',
+    'office event services hyderabad',
+    'commercial event decoration hyderabad',
+    'corporate event decoration hyderabad',
+    'business event decoration hyderabad'
+  ],
+  openGraph: {
+    title: 'Commercial Event Management Services in Venkateswara Nagar, Hyderabad | Rohini Decorations & Events',
+    description: 'Professional commercial event management services in Venkateswara Nagar, Vivekananda Nagar, Hyderabad-500072. Corporate events, office celebrations, business gatherings, and commercial event coordination.',
+    type: 'website',
+    locale: 'en_IN',
+    url: 'https://rohinievents.com/commercial-design',
+  },
+  alternates: {
+    canonical: 'https://rohinievents.com/commercial-design',
+  },
 };
 
 const CommercialDesign = () => {

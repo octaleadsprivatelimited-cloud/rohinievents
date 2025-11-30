@@ -3,6 +3,19 @@ import { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Get Your Dream Event Organized - Free Consultation | Rohini Decorations & Events | Venkateswara Nagar, Hyderabad',
   description: 'Transform your events with professional event decoration and management services in Venkateswara Nagar, Vivekananda Nagar, Hyderabad-500072. Get free consultation for wedding decorations, corporate events, catering, and complete event coordination. Book your free consultation today!',
+  keywords: [
+    'free event consultation hyderabad',
+    'event decoration consultation hyderabad',
+    'event management consultation hyderabad',
+    'free event planning consultation hyderabad',
+    'event decoration quote hyderabad',
+    'event consultation venkateswara nagar',
+    'free consultation event decoration',
+    'event planning consultation hyderabad',
+    'book event consultation hyderabad',
+    'event decoration free consultation',
+    'event management free consultation hyderabad'
+  ],
   openGraph: {
     title: 'Get Your Dream Event Organized - Free Consultation | Rohini Decorations & Events | Venkateswara Nagar, Hyderabad',
     description: 'Transform your events with professional event decoration and management services in Venkateswara Nagar, Vivekananda Nagar, Hyderabad-500072. Get free consultation for wedding decorations, corporate events, and complete event coordination.',

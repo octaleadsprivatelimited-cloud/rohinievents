@@ -6,6 +6,30 @@ import { ArrowRight, Sofa, CheckCircle, Star, Home, Users, Target } from 'lucide
 export const metadata: Metadata = {
   title: 'Event Furniture & Equipment Rental in Venkateswara Nagar, Hyderabad | Rohini Decorations & Events',
   description: 'Expert event furniture and equipment rental services in Venkateswara Nagar, Vivekananda Nagar, Hyderabad-500072. Curate the perfect furniture and equipment for your events with professional selection and setup services.',
+  keywords: [
+    'event furniture rental hyderabad',
+    'event equipment rental hyderabad',
+    'furniture rental for events hyderabad',
+    'event furniture services hyderabad',
+    'event equipment services hyderabad',
+    'furniture rental hyderabad',
+    'event furniture company hyderabad',
+    'event equipment rental venkateswara nagar',
+    'professional event furniture rental hyderabad',
+    'event furniture and equipment hyderabad',
+    'wedding furniture rental hyderabad',
+    'corporate event furniture rental hyderabad'
+  ],
+  openGraph: {
+    title: 'Event Furniture & Equipment Rental in Venkateswara Nagar, Hyderabad | Rohini Decorations & Events',
+    description: 'Expert event furniture and equipment rental services in Venkateswara Nagar, Vivekananda Nagar, Hyderabad-500072. Curate the perfect furniture and equipment for your events.',
+    type: 'website',
+    locale: 'en_IN',
+    url: 'https://rohinievents.com/furniture-selection',
+  },
+  alternates: {
+    canonical: 'https://rohinievents.com/furniture-selection',
+  },
 };
 
 const FurnitureSelection = () => {

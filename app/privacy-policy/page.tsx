@@ -5,6 +5,17 @@ import { ArrowLeft, Shield, Eye, Lock, Database, UserCheck } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Privacy Policy - Rohini Decorations & Events | Venkateswara Nagar, Hyderabad',
   description: 'Learn how Rohini Decorations & Events protects your privacy and handles your personal information. Event decoration and management company in Venkateswara Nagar, Vivekananda Nagar, Hyderabad-500072.',
+  keywords: [
+    'privacy policy rohini decorations',
+    'event decoration privacy policy',
+    'rohini decorations data protection',
+    'event management privacy policy',
+    'privacy policy hyderabad event decoration'
+  ],
+  robots: {
+    index: false,
+    follow: true,
+  },
 };
 
 const PrivacyPolicy = () => {

@@ -6,6 +6,26 @@ import { ArrowRight, Building2, Presentation, Users, Calendar, CheckCircle, Star
 export const metadata: Metadata = {
   title: 'Corporate Events Decoration & Management in Venkateswara Nagar, Hyderabad | Business Event Planning | Rohini Decorations & Events',
   description: 'Rohini Decorations & Events provides professional corporate event decoration and management services in Venkateswara Nagar, Vivekananda Nagar, Hyderabad-500072. Expert business event planning including conferences, seminars, product launches, team building, corporate gala, meetings, and corporate celebrations. Best corporate event decorators in Hyderabad.',
+  keywords: [
+    'corporate events hyderabad',
+    'corporate event decoration hyderabad',
+    'corporate event management hyderabad',
+    'business event planning hyderabad',
+    'corporate event decorators hyderabad',
+    'corporate events venkateswara nagar',
+    'conference decoration hyderabad',
+    'seminar decoration hyderabad',
+    'product launch decoration hyderabad',
+    'corporate event services hyderabad',
+    'corporate event planning hyderabad',
+    'business event decoration hyderabad',
+    'corporate gala decoration hyderabad',
+    'corporate meeting decoration hyderabad',
+    'hyderabad corporate events',
+    'corporate event organizers hyderabad',
+    'professional corporate events hyderabad',
+    'corporate event decoration company hyderabad'
+  ],
   openGraph: {
     title: 'Corporate Events Decoration & Management in Venkateswara Nagar, Hyderabad | Business Event Planning | Rohini Decorations & Events',
     description: 'Professional corporate event decoration and management services in Venkateswara Nagar, Vivekananda Nagar, Hyderabad-500072. Complete business event solutions including conferences, seminars, product launches, and corporate celebrations.',

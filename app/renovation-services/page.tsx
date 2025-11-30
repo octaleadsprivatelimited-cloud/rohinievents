@@ -6,6 +6,29 @@ import { ArrowRight, Wrench, CheckCircle, Star, Home, Users, Target } from 'luci
 export const metadata: Metadata = {
   title: 'Event Setup & Renovation Services in Venkateswara Nagar, Hyderabad | Rohini Decorations & Events',
   description: 'Complete event setup and venue renovation services in Venkateswara Nagar, Vivekananda Nagar, Hyderabad-500072. Professional event venue preparation, setup, and coordination for weddings, corporate events, and celebrations.',
+  keywords: [
+    'event setup services hyderabad',
+    'event venue setup hyderabad',
+    'event setup and coordination hyderabad',
+    'venue renovation hyderabad',
+    'event venue preparation hyderabad',
+    'event setup company hyderabad',
+    'event setup services venkateswara nagar',
+    'professional event setup hyderabad',
+    'event setup and decoration hyderabad',
+    'venue setup services hyderabad',
+    'event coordination and setup hyderabad'
+  ],
+  openGraph: {
+    title: 'Event Setup & Renovation Services in Venkateswara Nagar, Hyderabad | Rohini Decorations & Events',
+    description: 'Complete event setup and venue renovation services in Venkateswara Nagar, Vivekananda Nagar, Hyderabad-500072. Professional event venue preparation, setup, and coordination.',
+    type: 'website',
+    locale: 'en_IN',
+    url: 'https://rohinievents.com/renovation-services',
+  },
+  alternates: {
+    canonical: 'https://rohinievents.com/renovation-services',
+  },
 };
 
 const RenovationServices = () => {

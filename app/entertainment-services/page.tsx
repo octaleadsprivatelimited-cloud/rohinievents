@@ -6,6 +6,26 @@ import { ArrowRight, Music, Mic, Volume2, Users, CheckCircle, Star, Quote, Heart
 export const metadata: Metadata = {
   title: 'Entertainment Services in Venkateswara Nagar, Hyderabad | Professional Event Entertainment | Rohini Decorations & Events',
   description: 'Professional entertainment services in Venkateswara Nagar, Vivekananda Nagar, Hyderabad-500072. Complete entertainment solutions including DJ services, live music, sound systems, and special performances for events. Best entertainment services in Hyderabad.',
+  keywords: [
+    'entertainment services hyderabad',
+    'dj services hyderabad',
+    'event entertainment hyderabad',
+    'live music hyderabad',
+    'sound system hyderabad',
+    'entertainment services venkateswara nagar',
+    'dj for events hyderabad',
+    'event dj hyderabad',
+    'party entertainment hyderabad',
+    'wedding entertainment hyderabad',
+    'corporate entertainment hyderabad',
+    'best dj services hyderabad',
+    'professional dj hyderabad',
+    'entertainment services vivekananda nagar',
+    'event entertainment company hyderabad',
+    'hyderabad entertainment services',
+    'music for events hyderabad',
+    'event sound system hyderabad'
+  ],
   openGraph: {
     title: 'Entertainment Services in Venkateswara Nagar, Hyderabad | Professional Event Entertainment | Rohini Decorations & Events',
     description: 'Professional entertainment services in Venkateswara Nagar, Vivekananda Nagar, Hyderabad-500072. Complete entertainment solutions including DJ services, live music, and sound systems.',

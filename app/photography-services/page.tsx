@@ -6,6 +6,26 @@ import { ArrowRight, Camera, Video, Edit3, Album, CheckCircle, Star, Quote, Hear
 export const metadata: Metadata = {
   title: 'Photography Services in Venkateswara Nagar, Hyderabad | Professional Event Photography | Rohini Decorations & Events',
   description: 'Professional photography and videography services in Venkateswara Nagar, Vivekananda Nagar, Hyderabad-500072. Expert event photography for weddings, corporate events, parties, and celebrations with high-quality results. Best event photographers in Hyderabad.',
+  keywords: [
+    'event photography hyderabad',
+    'photography services hyderabad',
+    'wedding photography hyderabad',
+    'corporate photography hyderabad',
+    'event videography hyderabad',
+    'photography services venkateswara nagar',
+    'professional photographers hyderabad',
+    'event photographers hyderabad',
+    'wedding photographers hyderabad',
+    'best photographers hyderabad',
+    'photography services vivekananda nagar',
+    'event photography company hyderabad',
+    'hyderabad photography services',
+    'photography for events hyderabad',
+    'candid photography hyderabad',
+    'professional videography hyderabad',
+    'event photography telangana',
+    'photo video services hyderabad'
+  ],
   openGraph: {
     title: 'Photography Services in Venkateswara Nagar, Hyderabad | Professional Event Photography | Rohini Decorations & Events',
     description: 'Professional photography and videography services in Venkateswara Nagar, Vivekananda Nagar, Hyderabad-500072. Expert event photography for weddings, corporate events, and celebrations.',

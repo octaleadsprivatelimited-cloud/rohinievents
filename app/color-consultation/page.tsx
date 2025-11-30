@@ -6,6 +6,30 @@ import { ArrowRight, Palette, CheckCircle, Star, Eye, Lightbulb, Target } from '
 export const metadata: Metadata = {
   title: 'Event Theme & Color Consultation in Venkateswara Nagar, Hyderabad | Rohini Decorations & Events',
   description: 'Expert event theme and color consultation services in Venkateswara Nagar, Vivekananda Nagar, Hyderabad-500072. Create the perfect mood and atmosphere for your events with professional theme and color guidance.',
+  keywords: [
+    'event theme consultation hyderabad',
+    'event color consultation hyderabad',
+    'event theme planning hyderabad',
+    'event color scheme hyderabad',
+    'event theme design hyderabad',
+    'event decoration theme hyderabad',
+    'wedding theme consultation hyderabad',
+    'corporate event theme hyderabad',
+    'event theme selection hyderabad',
+    'event color coordination hyderabad',
+    'event theme services hyderabad',
+    'event decoration theme planning hyderabad'
+  ],
+  openGraph: {
+    title: 'Event Theme & Color Consultation in Venkateswara Nagar, Hyderabad | Rohini Decorations & Events',
+    description: 'Expert event theme and color consultation services in Venkateswara Nagar, Vivekananda Nagar, Hyderabad-500072. Create the perfect mood and atmosphere for your events.',
+    type: 'website',
+    locale: 'en_IN',
+    url: 'https://rohinievents.com/color-consultation',
+  },
+  alternates: {
+    canonical: 'https://rohinievents.com/color-consultation',
+  },
 };
 
 const ColorConsultation = () => {

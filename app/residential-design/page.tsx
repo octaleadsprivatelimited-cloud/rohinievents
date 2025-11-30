@@ -6,6 +6,32 @@ import { ArrowRight, Home, CheckCircle, Star, Clock, DollarSign, Users } from 'l
 export const metadata: Metadata = {
   title: 'Residential Event Planning Services in Venkateswara Nagar, Hyderabad | Rohini Decorations & Events',
   description: 'Expert residential event planning services in Venkateswara Nagar, Vivekananda Nagar, Hyderabad-500072. Home celebrations, house parties, family events, and residential event coordination. Best residential event planners in Hyderabad.',
+  keywords: [
+    'residential event planning hyderabad',
+    'home event planning hyderabad',
+    'house party planning hyderabad',
+    'family event planning hyderabad',
+    'residential event coordination hyderabad',
+    'home celebration planning hyderabad',
+    'residential event planners hyderabad',
+    'house party decorators hyderabad',
+    'family event decorators hyderabad',
+    'home event management hyderabad',
+    'residential event services hyderabad',
+    'house party services hyderabad',
+    'home celebration services hyderabad',
+    'residential event decoration hyderabad'
+  ],
+  openGraph: {
+    title: 'Residential Event Planning Services in Venkateswara Nagar, Hyderabad | Rohini Decorations & Events',
+    description: 'Expert residential event planning services in Venkateswara Nagar, Vivekananda Nagar, Hyderabad-500072. Home celebrations, house parties, family events, and residential event coordination.',
+    type: 'website',
+    locale: 'en_IN',
+    url: 'https://rohinievents.com/residential-design',
+  },
+  alternates: {
+    canonical: 'https://rohinievents.com/residential-design',
+  },
 };
 
 const ResidentialDesign = () => {

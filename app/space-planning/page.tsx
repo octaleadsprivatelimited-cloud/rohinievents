@@ -6,6 +6,30 @@ import { ArrowRight, Ruler, CheckCircle, Star, Home, Users, Target } from 'lucid
 export const metadata: Metadata = {
   title: 'Event Coordination Services in Venkateswara Nagar, Hyderabad | Rohini Decorations & Events',
   description: 'Professional event coordination services in Venkateswara Nagar, Vivekananda Nagar, Hyderabad-500072. Expert event planning and coordination for weddings, corporate events, and celebrations.',
+  keywords: [
+    'event coordination services hyderabad',
+    'event coordination hyderabad',
+    'event planning and coordination hyderabad',
+    'event coordinators hyderabad',
+    'professional event coordination hyderabad',
+    'event coordination company hyderabad',
+    'wedding coordination hyderabad',
+    'corporate event coordination hyderabad',
+    'event coordination services venkateswara nagar',
+    'complete event coordination hyderabad',
+    'event management coordination hyderabad',
+    'event coordination and planning hyderabad'
+  ],
+  openGraph: {
+    title: 'Event Coordination Services in Venkateswara Nagar, Hyderabad | Rohini Decorations & Events',
+    description: 'Professional event coordination services in Venkateswara Nagar, Vivekananda Nagar, Hyderabad-500072. Expert event planning and coordination for weddings, corporate events, and celebrations.',
+    type: 'website',
+    locale: 'en_IN',
+    url: 'https://rohinievents.com/space-planning',
+  },
+  alternates: {
+    canonical: 'https://rohinievents.com/space-planning',
+  },
 };
 
 const SpacePlanning = () => {

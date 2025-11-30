@@ -5,6 +5,17 @@ import { ArrowLeft, FileText, Scale, Shield, AlertTriangle } from 'lucide-react'
 export const metadata: Metadata = {
   title: 'Terms of Service - Rohini Decorations & Events | Venkateswara Nagar, Hyderabad',
   description: 'Read our terms of service and understand the conditions for using Rohini Decorations & Events services in Venkateswara Nagar, Vivekananda Nagar, Hyderabad-500072.',
+  keywords: [
+    'terms of service rohini decorations',
+    'event decoration terms of service',
+    'rohini decorations terms and conditions',
+    'event management terms of service',
+    'terms of service hyderabad event decoration'
+  ],
+  robots: {
+    index: false,
+    follow: true,
+  },
 };
 
 const TermsOfService = () => {

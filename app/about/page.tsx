@@ -6,6 +6,40 @@ import { ArrowRight, Award, Users, Target, CheckCircle, Star, Quote } from 'luci
 export const metadata: Metadata = {
   title: 'About Us - Rohini Decorations & Events | Event Decoration Company in Venkateswara Nagar, Hyderabad',
   description: 'Learn about Rohini Decorations & Events, premier event decoration and management company in Venkateswara Nagar, Vivekananda Nagar, Hyderabad-500072. Our mission, values, and expert team providing award-winning event decoration services in Hyderabad, Telangana.',
+  keywords: [
+    'about rohini decorations events',
+    'event decoration company hyderabad',
+    'event management team hyderabad',
+    'best event decorators hyderabad',
+    'event decoration company venkateswara nagar',
+    'hyderabad event management company',
+    'event decoration services hyderabad',
+    'professional event decorators hyderabad',
+    'event management experience hyderabad',
+    'rohini decorations about us',
+    'event decoration company telangana',
+    'hyderabad event organizers',
+    'award winning event decorators',
+    'event management company hyderabad'
+  ],
+  openGraph: {
+    title: 'About Us - Rohini Decorations & Events | Event Decoration Company in Venkateswara Nagar, Hyderabad',
+    description: 'Learn about Rohini Decorations & Events, premier event decoration and management company in Venkateswara Nagar, Vivekananda Nagar, Hyderabad-500072. Our mission, values, and expert team providing award-winning event decoration services in Hyderabad, Telangana.',
+    type: 'website',
+    locale: 'en_IN',
+    url: 'https://rohinievents.com/about',
+    images: [
+      {
+        url: 'https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=1200&h=630&fit=crop',
+        width: 1200,
+        height: 630,
+        alt: 'About Rohini Decorations & Events - Event Decoration Company in Hyderabad',
+      },
+    ],
+  },
+  alternates: {
+    canonical: 'https://rohinievents.com/about',
+  },
 };
 
 const About = () => {

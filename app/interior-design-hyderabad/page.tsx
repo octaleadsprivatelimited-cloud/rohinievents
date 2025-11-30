@@ -6,6 +6,32 @@ import { ArrowRight, MapPin, Phone, Mail, Star, CheckCircle, Home, Building, Use
 export const metadata: Metadata = {
   title: 'Event Managers in Venkateswara Nagar, Hyderabad | Rohini Decorations & Events | Telangana',
   description: 'Top event managers and decorators in Venkateswara Nagar, Vivekananda Nagar, Hyderabad-500072, Telangana. Professional event decoration and management services. Award-winning event coordination for weddings, corporate events, and celebrations in Hyderabad.',
+  keywords: [
+    'event managers hyderabad',
+    'event managers venkateswara nagar',
+    'event managers hyderabad telangana',
+    'best event managers hyderabad',
+    'professional event managers hyderabad',
+    'event coordinators hyderabad',
+    'event managers vivekananda nagar',
+    'hyderabad event managers',
+    'event management services hyderabad',
+    'event organizers hyderabad',
+    'top event managers hyderabad',
+    'event management company hyderabad',
+    'award winning event managers hyderabad',
+    'event managers near me hyderabad'
+  ],
+  openGraph: {
+    title: 'Event Managers in Venkateswara Nagar, Hyderabad | Rohini Decorations & Events | Telangana',
+    description: 'Top event managers and decorators in Venkateswara Nagar, Vivekananda Nagar, Hyderabad-500072, Telangana. Professional event decoration and management services.',
+    type: 'website',
+    locale: 'en_IN',
+    url: 'https://rohinievents.com/interior-design-hyderabad',
+  },
+  alternates: {
+    canonical: 'https://rohinievents.com/interior-design-hyderabad',
+  },
 };
 
 const InteriorDesignHyderabad = () => {

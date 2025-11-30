@@ -6,6 +6,27 @@ import { ArrowRight, Heart, Calendar, Users, Camera, UtensilsCrossed, Music, Spa
 export const metadata: Metadata = {
   title: 'Wedding Decoration & Planning Services in Venkateswara Nagar, Hyderabad | Complete Wedding Coordination | Rohini Decorations & Events',
   description: 'Rohini Decorations & Events offers comprehensive wedding decoration and planning services in Venkateswara Nagar, Vivekananda Nagar, Hyderabad-500072. Expert wedding coordination from engagement to reception including venue selection, catering, decoration, photography, entertainment, and complete wedding management. Best wedding decorators in Hyderabad.',
+  keywords: [
+    'wedding decoration hyderabad',
+    'wedding planning hyderabad',
+    'wedding decorators hyderabad',
+    'wedding decoration venkateswara nagar',
+    'complete wedding planning hyderabad',
+    'wedding coordination hyderabad',
+    'wedding decoration services hyderabad',
+    'best wedding decorators hyderabad',
+    'wedding event management hyderabad',
+    'wedding decoration company hyderabad',
+    'hyderabad wedding decoration',
+    'wedding planning services hyderabad',
+    'wedding decoration telangana',
+    'professional wedding decorators hyderabad',
+    'wedding decoration vivekananda nagar',
+    'wedding event decoration hyderabad',
+    'wedding decoration and planning',
+    'hyderabad wedding planners',
+    'wedding decoration packages hyderabad'
+  ],
   openGraph: {
     title: 'Wedding Decoration & Planning Services in Venkateswara Nagar, Hyderabad | Complete Wedding Coordination | Rohini Decorations & Events',
     description: 'Professional wedding decoration and planning services in Venkateswara Nagar, Vivekananda Nagar, Hyderabad-500072. Complete wedding coordination from engagement to reception with expert wedding decorators and coordinators.',
