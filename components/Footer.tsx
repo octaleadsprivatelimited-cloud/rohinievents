@@ -2,7 +2,6 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
 import { Phone, Mail, MapPin, ArrowRight, ChevronDown, ChevronUp } from 'lucide-react';
 
 const Footer = () => {
@@ -48,17 +47,7 @@ const Footer = () => {
     <footer className="bg-gradient-to-br from-neutral-900 via-neutral-800 to-neutral-900 text-white">
       <div className="container-custom py-8 px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-6">
-          <Link href="/" className="inline-block">
-            <Image
-              src="/images/logo.png"
-              alt="Rohini Decorations & Events"
-              width={200}
-              height={70}
-              className="h-16 w-auto object-contain mx-auto"
-              priority
-            />
-          </Link>
-          <p className="text-neutral-400 text-sm mt-2">Creating Memorable Events</p>
+          <p className="text-neutral-400 text-sm">Creating Memorable Events</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-6">
@@ -110,18 +99,42 @@ const Footer = () => {
               onClick={() => toggleDropdown('connect')}
               className="md:hidden flex items-center justify-between w-full text-left mb-3"
             >
-              <h4 className="text-lg font-semibold text-white">Legal</h4>
+              <h4 className="text-lg font-semibold text-white">Contact</h4>
               {openDropdowns.connect ? <ChevronUp className="w-5 h-5" /> : <ChevronDown className="w-5 h-5" />}
             </button>
-            <h4 className="hidden md:block text-lg font-semibold mb-3 text-white">Legal</h4>
+            <h4 className="hidden md:block text-lg font-semibold mb-3 text-white">Contact</h4>
             <div className={`${openDropdowns.connect ? 'block' : 'hidden md:block'}`}>
-              <div className="space-y-1">
-                {legalLinks.map((item) => (
-                  <Link key={item.name} href={item.href} className="text-neutral-400 hover:text-primary-400 text-sm font-medium transition-colors duration-200 block">
-                    {item.name}
-                  </Link>
-                ))}
+              <div className="space-y-3">
+                <div className="flex items-start space-x-2">
+                  <Phone className="w-4 h-4 text-primary-400 mt-1 flex-shrink-0" />
+                  <div className="flex flex-col">
+                    <a href="tel:+919032028704" className="text-neutral-300 hover:text-primary-400 text-sm font-medium transition-colors duration-200">
+                      +91 9032028704
+                    </a>
+                    <a href="tel:+919603210704" className="text-neutral-300 hover:text-primary-400 text-sm font-medium transition-colors duration-200">
+                      +91 9603210704
+                    </a>
+                  </div>
+                </div>
+                <div className="flex items-start space-x-2">
+                  <MapPin className="w-4 h-4 text-primary-400 mt-1 flex-shrink-0" />
+                  <p className="text-neutral-300 text-sm">
+                    Venkateswara Nagar, Vivekananda Nagar<br />
+                    Hyderabad-500072
+                  </p>
+                </div>
               </div>
+            </div>
+          </div>
+
+          <div>
+            <h4 className="text-lg font-semibold mb-3 text-white">Legal</h4>
+            <div className="space-y-1">
+              {legalLinks.map((item) => (
+                <Link key={item.name} href={item.href} className="text-neutral-400 hover:text-primary-400 text-sm font-medium transition-colors duration-200 block">
+                  {item.name}
+                </Link>
+              ))}
             </div>
           </div>
         </div>
