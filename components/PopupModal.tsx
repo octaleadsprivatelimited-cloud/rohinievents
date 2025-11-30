@@ -42,43 +42,13 @@ const PopupModal = () => {
     e.preventDefault();
     setIsSubmitting(true);
 
-    try {
-      const response = await fetch('https://formspree.io/f/xdklqadr', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          name: formData.name,
-          mobile: formData.mobile,
-          form_type: 'Popup Modal Form'
-        }),
-      });
-
-      if (response.ok) {
-        setIsSubmitted(true);
-      } else {
-        // Fallback to localStorage if Formspree fails
-        const submissions = JSON.parse(localStorage.getItem('popupSubmissions') || '[]');
-        submissions.push({
-          ...formData,
-          timestamp: new Date().toISOString()
-        });
-        localStorage.setItem('popupSubmissions', JSON.stringify(submissions));
-        setIsSubmitted(true);
-      }
-    } catch (error) {
-      // Fallback to localStorage if Formspree fails
-      const submissions = JSON.parse(localStorage.getItem('popupSubmissions') || '[]');
-      submissions.push({
-        ...formData,
-        timestamp: new Date().toISOString()
-      });
-      localStorage.setItem('popupSubmissions', JSON.stringify(submissions));
-      setIsSubmitted(true);
-    } finally {
-      setIsSubmitting(false);
-    }
+    // Redirect to WhatsApp with form data
+    const message = `Hello! I'm ${formData.name}. I'm interested in your event management services.`;
+    const whatsappUrl = `https://wa.me/919032028704?text=${encodeURIComponent(message)}`;
+    window.open(whatsappUrl, '_blank');
+    
+    setIsSubmitted(true);
+    setIsSubmitting(false);
 
     // Close popup after 3 seconds
     setTimeout(() => {

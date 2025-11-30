@@ -27,39 +27,20 @@ const Contact = () => {
     e.preventDefault();
     setIsSubmitting(true);
     
-    try {
-      const response = await fetch('https://formspree.io/f/xdklqadr', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          name: formData.name,
-          email: formData.email,
-          phone: formData.phone,
-          service: formData.service,
-          message: formData.message,
-          form_type: 'Contact Page Form'
-        }),
-      });
-
-      if (response.ok) {
-        setSubmitStatus('success');
-        setFormData({
-          name: '',
-          email: '',
-          phone: '+91 ',
-          service: '',
-          message: ''
-        });
-      } else {
-        setSubmitStatus('error');
-      }
-    } catch (error) {
-      setSubmitStatus('error');
-    } finally {
-      setIsSubmitting(false);
-    }
+    // Redirect to WhatsApp with form data
+    const message = `Hello! I'm ${formData.name}. ${formData.service ? `Service: ${formData.service}. ` : ''}${formData.message ? `Message: ${formData.message}` : ''}`;
+    const whatsappUrl = `https://wa.me/919032028704?text=${encodeURIComponent(message)}`;
+    window.open(whatsappUrl, '_blank');
+    
+    setSubmitStatus('success');
+    setFormData({
+      name: '',
+      email: '',
+      phone: '+91 ',
+      service: '',
+      message: ''
+    });
+    setIsSubmitting(false);
   };
 
   const contactInfo = [
