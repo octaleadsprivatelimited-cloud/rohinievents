@@ -13,6 +13,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1,
     },
     {
+      url: `${baseUrl}/landing`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    {
       url: `${baseUrl}/about`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
@@ -145,6 +151,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Only include URLs that actually exist in the app
   const existingPaths = new Set([
     '/',
+    '/landing',
     '/about',
     '/services',
     '/portfolio',
