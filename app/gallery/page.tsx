@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import { X, ChevronLeft, ChevronRight, Eye, ExternalLink, Play, Youtube } from 'lucide-react';
 
@@ -8,6 +8,8 @@ const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState<number | null>(null);
   const [selectedVideo, setSelectedVideo] = useState<number | null>(null);
   const [activeTab, setActiveTab] = useState<'images' | 'videos'>('images');
+  const [youtubeVideos, setYoutubeVideos] = useState<any[]>([]);
+  const [isLoadingVideos, setIsLoadingVideos] = useState(true);
 
   const galleryImages: any[] = [
     { id: 1, image: '/images/gallery-1.jpeg', type: 'Event' },
@@ -39,7 +41,121 @@ const Gallery = () => {
     { id: 27, image: '/images/gallery-27.jpeg', type: 'Event' },
   ];
 
-  const youtubeVideos: any[] = [];
+  // Fetch YouTube videos from the channel
+  useEffect(() => {
+    const fetchYouTubeVideos = async () => {
+      try {
+        const response = await fetch('/api/youtube-videos');
+        const data = await response.json();
+        if (data.videos && data.videos.length > 0) {
+          setYoutubeVideos(data.videos);
+        } else {
+          // Fallback: Manually add videos from https://www.youtube.com/@RohiniEvents
+          const manualVideos = [
+            {
+              id: 1,
+              title: 'Rohini Events - Event Management Services',
+              description: 'Experience the best event management services with Rohini Events. We specialize in weddings, corporate events, and celebrations.',
+              thumbnail: 'https://img.youtube.com/vi/GxZeLkn46hk/maxresdefault.jpg',
+              videoId: 'GxZeLkn46hk',
+              category: 'Event',
+              duration: '0:30',
+              views: '0',
+              date: '2024-01-01'
+            },
+            {
+              id: 2,
+              title: 'Rohini Events - Professional Event Planning',
+              description: 'Professional event planning and coordination services for all your special occasions.',
+              thumbnail: 'https://img.youtube.com/vi/3qBEa8qfGZ4/maxresdefault.jpg',
+              videoId: '3qBEa8qfGZ4',
+              category: 'Event',
+              duration: '0:30',
+              views: '0',
+              date: '2024-01-01'
+            },
+            {
+              id: 3,
+              title: 'Rohini Events - Celebration Services',
+              description: 'Making your celebrations memorable with our expert event management team.',
+              thumbnail: 'https://img.youtube.com/vi/W1aRYPtYeu4/maxresdefault.jpg',
+              videoId: 'W1aRYPtYeu4',
+              category: 'Event',
+              duration: '0:30',
+              views: '0',
+              date: '2024-01-01'
+            },
+            {
+              id: 4,
+              title: 'Rohini Events - Complete Event Solutions',
+              description: 'Complete event solutions for weddings, corporate events, and special celebrations.',
+              thumbnail: 'https://img.youtube.com/vi/to2WUcWsTrE/maxresdefault.jpg',
+              videoId: 'to2WUcWsTrE',
+              category: 'Event',
+              duration: '0:30',
+              views: '0',
+              date: '2024-01-01'
+            }
+          ];
+          setYoutubeVideos(manualVideos);
+        }
+      } catch (error) {
+        console.error('Error fetching YouTube videos:', error);
+        // Fallback to manual videos on error
+        const manualVideos = [
+          {
+            id: 1,
+            title: 'Rohini Events - Event Management Services',
+            description: 'Experience the best event management services with Rohini Events.',
+            thumbnail: 'https://img.youtube.com/vi/GxZeLkn46hk/maxresdefault.jpg',
+            videoId: 'GxZeLkn46hk',
+            category: 'Event',
+            duration: '0:30',
+            views: '0',
+            date: '2024-01-01'
+          },
+          {
+            id: 2,
+            title: 'Rohini Events - Professional Event Planning',
+            description: 'Professional event planning and coordination services.',
+            thumbnail: 'https://img.youtube.com/vi/3qBEa8qfGZ4/maxresdefault.jpg',
+            videoId: '3qBEa8qfGZ4',
+            category: 'Event',
+            duration: '0:30',
+            views: '0',
+            date: '2024-01-01'
+          },
+          {
+            id: 3,
+            title: 'Rohini Events - Celebration Services',
+            description: 'Making your celebrations memorable with our expert team.',
+            thumbnail: 'https://img.youtube.com/vi/W1aRYPtYeu4/maxresdefault.jpg',
+            videoId: 'W1aRYPtYeu4',
+            category: 'Event',
+            duration: '0:30',
+            views: '0',
+            date: '2024-01-01'
+          },
+          {
+            id: 4,
+            title: 'Rohini Events - Complete Event Solutions',
+            description: 'Complete event solutions for all your special occasions.',
+            thumbnail: 'https://img.youtube.com/vi/to2WUcWsTrE/maxresdefault.jpg',
+            videoId: 'to2WUcWsTrE',
+            category: 'Event',
+            duration: '0:30',
+            views: '0',
+            date: '2024-01-01'
+          }
+        ];
+        setYoutubeVideos(manualVideos);
+      } finally {
+        setIsLoadingVideos(false);
+      }
+    };
+
+    fetchYouTubeVideos();
+  }, []);
 
   const filteredImages = galleryImages;
   const filteredVideos = youtubeVideos;
@@ -171,6 +287,16 @@ const Gallery = () => {
                 <p className="text-gray-600 mb-8">Gallery images will be added soon. Please check back later.</p>
               </div>
             </div>
+          ) : activeTab === 'videos' && isLoadingVideos ? (
+            <div className="text-center py-20">
+              <div className="max-w-md mx-auto">
+                <div className="w-24 h-24 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-6 animate-pulse">
+                  <Youtube className="w-12 h-12 text-gray-400" />
+                </div>
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">Loading Videos...</h3>
+                <p className="text-gray-600 mb-8">Fetching videos from YouTube channel...</p>
+              </div>
+            </div>
           ) : activeTab === 'videos' && filteredVideos.length === 0 ? (
             <div className="text-center py-20">
               <div className="max-w-md mx-auto">
@@ -179,6 +305,16 @@ const Gallery = () => {
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">No Videos Available</h3>
                 <p className="text-gray-600 mb-8">Gallery videos will be added soon. Please check back later.</p>
+                <a
+                  href="https://www.youtube.com/@RohiniEvents"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-lg font-medium transition-colors duration-200"
+                >
+                  <Youtube className="w-5 h-5 mr-2" />
+                  Visit Our YouTube Channel
+                  <ExternalLink className="ml-2 w-4 h-4" />
+                </a>
               </div>
             </div>
           ) : (
