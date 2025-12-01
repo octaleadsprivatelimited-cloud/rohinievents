@@ -48,18 +48,27 @@ const Hero = () => {
       title: 'Wedding Planning',
       subtitle: 'Made Perfect',
       description: 'From intimate ceremonies to grand celebrations, we handle every detail of your special day with expert coordination and flawless execution.',
-      image: '/images/gallery-18.jpeg',
+      image: '/images/hero-event-1.jpg',
       cta: 'Plan Your Wedding',
-      ctaLink: 'https://wa.me/919000245521?text=Hi, I\'m interested in your wedding planning services. Can you help me plan my special day?'
+      ctaLink: 'https://wa.me/919032028704?text=Hi, I\'m interested in your wedding planning services. Can you help me plan my special day?'
     },
     {
       id: 2,
       title: 'Corporate Events',
       subtitle: 'Executed to Perfection',
       description: 'Professional corporate event management including conferences, seminars, product launches, and team building events with complete manpower organization.',
-      image: '/images/gallery-19.jpeg',
+      image: '/images/hero-event-2.jpg',
       cta: 'Plan Your Event',
-      ctaLink: 'https://wa.me/919000245521?text=Hi, I\'m interested in your corporate event management services. Can you help me plan my event?'
+      ctaLink: 'https://wa.me/919032028704?text=Hi, I\'m interested in your corporate event management services. Can you help me plan my event?'
+    },
+    {
+      id: 3,
+      title: 'Event Decoration',
+      subtitle: 'Stunning & Elegant',
+      description: 'Transform your venue into a breathtaking space with our creative decoration services. From floral arrangements to theme-based designs, we bring your vision to life.',
+      image: '/images/hero-slide-3.jpg',
+      cta: 'Get Free Quote',
+      ctaLink: 'https://wa.me/919032028704?text=Hi, I\'m interested in your event decoration services. Can you help me decorate my event?'
     }
   ];
 
